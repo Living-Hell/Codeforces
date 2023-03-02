@@ -47,6 +47,7 @@
                         factors.push_back(tsum/i);
                     }
                 }
+                sort(factors.begin(),factors.end());
                 for(int j=factors.size()-1; j>=0; j++){
                     int sum=0, check=1;
                     for(int i=0; i<n; i++){
