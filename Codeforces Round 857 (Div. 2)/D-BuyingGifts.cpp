@@ -37,7 +37,6 @@
             return maxm = max(maxm, *max_element(f1.begin(),f1.end())-*max_element(f2.begin(),f2.end()));
         maxDiff(v,f1,f2,dept+1,maxm);
         f1.pop_back();
-
         return maxm;
     }
 
